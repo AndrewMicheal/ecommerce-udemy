@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "engines": {
-    "node" : "14.x"
-  } ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node server.js",
@@ -54,5 +51,8 @@
     "eslint-plugin-react": "^7.28.0",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
